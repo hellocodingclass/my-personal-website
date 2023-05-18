@@ -1,0 +1,84 @@
+.wrapper {
+  font-family: Arial, sans-serif;
+}
+
+#front #title-box {
+  display: flex;
+  justify-content: center;
+}
+
+#front #yellow {
+  color: yellow;
+  transition: all 0.3s ease-in-out;
+}
+
+#front #green {
+  color: green;
+  transition: all 0.3s ease-in-out;
+}
+
+#front #blue {
+  color: blue;
+  transition: all 0.3s ease-in-out;
+}
+
+#front #title-box:hover #yellow {
+  color: green;
+  left: 20px;
+}
+
+#front #title-box:hover #green {
+  color: blue;
+  left: -20px;
+}
+
+#front #title-box:hover #blue {
+  color: yellow;
+  left: 0;
+}
+
+.wrapper {
+  font-family: Arial, sans-serif;
+}
+
+.wave-text span {
+  display: inline-block;
+}
+
+.wave-text span:nth-child(1) {
+  font-size: 24px;
+}
+
+.wave-text span:nth-child(2) {
+  font-size: 32px;
+}
+
+.wave-text span:nth-child(3) {
+  font-size: 40px;
+}
+
+.wave-text span:nth-child(4) {
+  font-size: 32px;
+}
+
+.wave-text span:nth-child(5) {
+  font-size: 24px;
+}
+
+.highlight {
+  font-size: 18px;
+}
+
+.regular {
+  font-size: 16px;
+}
+
+.magic-trick {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#back .magic-trick {
+  text-align: center;
+  font-weight: bold;
+}
